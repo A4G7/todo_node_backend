@@ -19,6 +19,6 @@ Un Todo API básico creado con Node.js, Express y MongoDB.
 
 - `GET /api/todos`: Obtener todas las tareas.
 - `POST /api/todos`: Crear una nueva tarea.
-- `GET /api/todos/{id}`: Obtener  una tarea específica.
-- `PUT /api/todos/{id}`: Actualizar una tarea existente.
-- `DELETE /api/todos/{id}`: Eliminar una tarea.
+- `GET /api/todos/:id`: Obtener  una tarea específica.
+- `PUT /api/todos/:id`: Actualizar una tarea existente.
+- `DELETE /api/todos/:id`: Eliminar una tarea.
